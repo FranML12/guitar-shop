@@ -1,0 +1,83 @@
+[
+    {
+        "id":0,
+        "model":"x",
+        "instrument": "Bass Guitar",
+        "brand": "Fender",
+        "type": "electric",
+        "stock": 10
+    },
+    {
+        "id":1,
+        "model":"x",
+        "instrument": "Bass Guitar",
+        "brand": "Fender",
+        "type": "electric",
+        "stock": 10
+    },
+    {
+        "id":2,
+        "model":"x",
+        "instrument": "Bass Guitar",
+        "brand": "Ibanez",
+        "type": "electric",
+        "stock": 10
+    },
+    {
+        "id":3,
+        "model":"x",
+        "instrument": "Bass Guitar",
+        "brand": "Yamaha",
+        "type": "electric",
+        "stock": 10
+    },
+    {
+        "id":4,
+        "model":"American vintage II 1966",
+        "instrument": "Guitar",
+        "brand": "Fender",
+        "type": "electric",
+        "stock": 10
+    },
+    {
+        "id":5,
+        "model":"SG",
+        "instrument": "Guitar",
+        "brand": "Gibson",
+        "type": "electric",
+        "stock": 10
+    },
+    {
+        "id":6,
+        "model":"FG800",
+        "instrument": "Guitar",
+        "brand": "Yamaha",
+        "type": "acustic",
+        "stock": 10
+    },
+    {
+        "id":7,
+        "model":"Rs702b",
+        "instrument": "Guitar",
+        "brand": "Yamaha",
+        "type": "electric",
+        "stock": 10
+    },
+    {
+        "id":8,
+        "model":"Les Paul",
+        "instrument": "Guitar",
+        "brand": "Gibson",
+        "type": "electric",
+        "stock": 10
+    },
+    {
+        "id":9,
+        "model":"Af75",
+        "instrument": "Guitar",
+        "brand": "Ibanez",
+        "type": "electric",
+        "img": "./assets/9.jpg",
+        "stock": 10
+    }
+]
