@@ -1,20 +1,22 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import NavBar from './components/NavBar';
-import Swal from 'sweetalert2'
+//import Swal from 'sweetalert2'
 import ItemContainer from './components/ItemContainer'
-import Item from './components/Item';
+import Footer from './components/Footer'
+import { ECarousel } from './components/ECarousel';
+
 
 function App() {
 
 
   return (
-    Swal.fire('Welcome to my E-Commerce'),
+    //Swal.fire('Welcome to my E-Commerce'),
     <>      
       <NavBar/>
-      <h1>Hi!</h1>
+      <ECarousel/>
       <ItemContainer/>
-      <Item/>
+      <Footer/>
     </> 
   );
 }

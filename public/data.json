@@ -1,83 +1,92 @@
 [
     {
         "id":0,
-        "model":"x",
+        "model":"Fender American Professional II Precision Bass",
         "instrument": "Bass Guitar",
         "brand": "Fender",
         "type": "electric",
+        "img": "./assets/Items/0.webp",
         "stock": 10
     },
     {
         "id":1,
-        "model":"x",
+        "model":"Duff McKagan Deluxe Precision Bass WP",
         "instrument": "Bass Guitar",
         "brand": "Fender",
         "type": "electric",
+        "img": "./assets/Items/1.jpg",
         "stock": 10
     },
     {
         "id":2,
-        "model":"x",
+        "model":"Ibanez GSR206B - Wnf electric bass",
         "instrument": "Bass Guitar",
         "brand": "Ibanez",
         "type": "electric",
+        "img": "./assets/Items/2.jpg",
         "stock": 10
     },
     {
         "id":3,
-        "model":"x",
+        "model":"Yamaha bass Trbx505",
         "instrument": "Bass Guitar",
         "brand": "Yamaha",
         "type": "electric",
+        "img": "./assets/Items/3.webp",
         "stock": 10
     },
     {
         "id":4,
-        "model":"American vintage II 1966",
+        "model":"American vintage II 1966 Jazzmaster",
         "instrument": "Guitar",
         "brand": "Fender",
         "type": "electric",
+        "img": "./assets/Items/4.jpg",
         "stock": 10
     },
     {
         "id":5,
-        "model":"SG",
+        "model":"Gibson SG electric guitar",
         "instrument": "Guitar",
         "brand": "Gibson",
         "type": "electric",
+        "img": "./assets/Items/5.webp",
         "stock": 10
     },
     {
         "id":6,
-        "model":"FG800",
+        "model":"Yamaha FG800 acustic guitar",
         "instrument": "Guitar",
         "brand": "Yamaha",
         "type": "acustic",
+        "img": "./assets/Items/6.webp",
         "stock": 10
     },
     {
         "id":7,
-        "model":"Rs702b",
+        "model":"Yamaha Rs702b",
         "instrument": "Guitar",
         "brand": "Yamaha",
         "type": "electric",
+        "img": "./assets/Items/7.webp",
         "stock": 10
     },
     {
         "id":8,
-        "model":"Les Paul",
+        "model":"Gibson Les Paul",
         "instrument": "Guitar",
         "brand": "Gibson",
         "type": "electric",
+        "img": "./assets/Items/8.webp",
         "stock": 10
     },
     {
         "id":9,
-        "model":"Af75",
+        "model":"Ibanez Af75 jazz guitar",
         "instrument": "Guitar",
         "brand": "Ibanez",
         "type": "electric",
-        "img": "./assets/9.jpg",
+        "img": "./assets/Items/9.jpg",
         "stock": 10
     }
 ]

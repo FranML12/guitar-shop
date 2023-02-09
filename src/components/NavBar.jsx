@@ -1,28 +1,47 @@
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
-//Apply routing (Home, Stock, Cart, etc.)
-
-const NavBar = () => {
+function NavScrollExample() {
   return (
-    <>
-    <Nav justify variant="tabs" defaultActiveKey="/home">
-      <Nav.Item>
-        <Nav.Link href="/home">Home</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="link-1">Stock</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="link-2">Cart</Nav.Link>
-      </Nav.Item>
-      <Nav.Item>
-        <Nav.Link eventKey="disabled" disabled>
-          Account
-        </Nav.Link>
-      </Nav.Item>
-    </Nav>
-    </>
-  )
+    <Navbar bg="light" expand="lg">
+      <Container fluid>
+        <Navbar.Brand>Guitar E-commerce</Navbar.Brand>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="me-auto my-2 my-lg-0"
+            style={{ maxHeight: '100px' }}
+            navbarScroll
+          >
+            <Nav.Link href="#action1">Home</Nav.Link>
+            {/* <Nav.Link href="#action2">Link</Nav.Link> */}
+            <NavDropdown title="Filter" id="navbarScrollingDropdown">
+              <NavDropdown.Item href="#action3">Guitar</NavDropdown.Item>
+              <NavDropdown.Item href="#action4">Bass</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action5">Clear</NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="#" disabled>
+              About me
+            </Nav.Link>
+          </Nav>
+          <Form className="d-flex">
+            <Form.Control
+              type="search"
+              placeholder="Search"
+              className="me-2"
+              aria-label="Search"
+            />
+            <Button variant="outline-success">Search</Button>
+          </Form>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
 }
 
-export default NavBar
+export default NavScrollExample;

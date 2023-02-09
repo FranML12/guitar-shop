@@ -18,7 +18,6 @@ const ItemContainer = () => {
 
   return (
     <>
-      <div>ItemContainer</div>
       {/* Se envia el json a ItemList */}
       <ItemList info={info}/>
     </>
