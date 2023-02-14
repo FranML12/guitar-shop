@@ -1,3 +1,8 @@
-h1 {
-    color: red;
+.navLink {
+    text-decoration: none;
+    color: grey;
+    transition: color .5s;
+    :hover{
+        color: black;
+    }
 }

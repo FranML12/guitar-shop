@@ -7,7 +7,7 @@ const Item = props => {
     <Card style={{ width: '288px', height: "448px", alignSelf: "center", margin: "5px" }}>
       <Card.Img style={{width: "250px",	height: "275px", objectFit: "contain", alignSelf: "center", marginTop: "5px"}}variant="top" src={props.img} />
       <Card.Body style={{width: "262px",	height: "167px"}}>
-      <Card.Title style={{overflow: "hidden", textOverflow:"ellipsis", width: "230px", height: "50px"}}>{props.model}</Card.Title>
+      <Card.Title id="model" style={{overflow: "hidden", textOverflow:"ellipsis", width: "230px", height: "50px"}}>{props.model}</Card.Title>
       <Card.Text style={{overflow: "hidden",textOverflow: "ellipsis", color: "grey"}}>
         Available units: {props.stock}
       </Card.Text>

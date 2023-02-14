@@ -4,6 +4,8 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from 'react-router-dom'
+import { BsFillCartFill } from 'react-icons/bs'
 
 function NavScrollExample() {
   return (
@@ -17,9 +19,11 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
+            <Nav.Link>
+              <Link to={'/'} className="navLink">Home</Link> 
+            </Nav.Link>
             {/* <Nav.Link href="#action2">Link</Nav.Link> */}
-            <NavDropdown title="Filter" id="navbarScrollingDropdown">
+            <NavDropdown className="navLink" title="Filter" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Guitar</NavDropdown.Item>
               <NavDropdown.Item href="#action4">Bass</NavDropdown.Item>
               <NavDropdown.Divider />
@@ -29,6 +33,7 @@ function NavScrollExample() {
               About me
             </Nav.Link>
           </Nav>
+          <Link style={{paddingRight: "10px", paddingBottom: "5px"}} className="navLink" to={'/cart'}><BsFillCartFill/></Link>
           <Form className="d-flex">
             <Form.Control
               type="search"
